@@ -1,3 +1,9 @@
+import warnings
+from cryptography import __version__ as cryptography_version
+
+if cryptography_version < "3.4":
+    warnings.filterwarnings("ignore", category=UserWarning, message=".*will be forbidden in the future.*")
+
 import argparse
 import oracledb
 import datetime
