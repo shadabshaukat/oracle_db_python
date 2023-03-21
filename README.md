@@ -1,5 +1,6 @@
-# oracle_db_python
-Python3 Code Samples for Oracle Database
+# Oracle DB Python Code Examples 
+
+## orcl_p99_latency.py
 
 This is a Python script that connects to an Oracle database and executes a simple query repeatedly for a given time interval. It measures the query response time and logs it in a CSV file. The script also calculates and prints the P99 latency at the end of the run.
 
